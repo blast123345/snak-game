@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertex Trade | The Future of Automated Wealth</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Inter', sans-serif; background-color: #0A0F1F; color: #e2e8f0; overflow-x: hidden; }
+        .glass-card { background: rgba(25, 28, 41, 0.6); -webkit-backdrop-filter: blur(20px); backdrop-filter: blur(20px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .bg-grid { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-image: linear-gradient(to right, rgba(59, 130, 246, 0.1) 1px, transparent 1px), linear-gradient(to bottom, rgba(59, 130, 246, 0.1) 1px, transparent 1px); background-size: 3rem 3rem; z-index: -2; }
+        .bg-blobs { position: fixed; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden; z-index: -1; }
+        .blob1 { position: absolute; width: 500px; height: 500px; background: radial-gradient(circle, rgba(59, 130, 246, 0.2) 0%, rgba(59, 130, 246, 0) 70%); top: -150px; left: -150px; animation: move-blob1 30s infinite alternate; }
+        .blob2 { position: absolute; width: 600px; height: 600px; background: radial-gradient(circle, rgba(139, 92, 246, 0.15) 0%, rgba(139, 92, 246, 0) 70%); bottom: -200px; right: -200px; animation: move-blob2 35s infinite alternate; }
+        @keyframes move-blob1 { from { transform: translate(-20px, 50px) scale(1.2) rotate(0deg); } to { transform: translate(50px, -20px) scale(0.9) rotate(180deg); } }
+        @keyframes move-blob2 { from { transform: translate(30px, -60px) scale(0.9); } to { transform: translate(-60px, 30px) scale(1.1); } }
+        .gradient-text { background-image: linear-gradient(90deg, #60a5fa, #a78bfa); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    </style>
+</head>
+<body class="text-gray-300">
+    <div class="bg-blobs"></div>
+    <div class="bg-grid"></div>
+
+    <header class="fixed top-0 left-0 right-0 p-4 z-50 transition-shadow duration-300" id="header">
+        <div class="container mx-auto flex justify-between items-center glass-card p-3 rounded-2xl">
+            <div class="flex items-center gap-3">
+                <svg class="w-8 h-8 text-blue-500" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                <span class="text-xl font-bold text-white">Vertex Trade</span>
+            </div>
+            <div class="flex items-center gap-4">
+                <a href="/app" class="text-sm font-medium hover:text-white transition-colors">Login</a>
+                <a href="/app" class="px-5 py-2.5 text-sm font-semibold text-white bg-blue-600 hover:bg-blue-700 rounded-lg transition-colors">Get Started Now</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="relative w-full">
+        <section class="min-h-screen w-full flex flex-col items-center justify-center text-center p-4">
+            <h1 class="text-5xl md:text-7xl font-black text-white leading-tight max-w-4xl">
+                Stop Trading.
+                <span class="gradient-text block mt-2">Start Winning.</span>
+            </h1>
+            <p class="mt-6 max-w-2xl mx-auto text-lg text-gray-400">
+                Why work for your money when our AI can do it for you? Vertex Trade is a closed-loop, autonomous trading system designed for one purpose: to generate wealth for our members. All you have to do is register.
+            </p>
+            <div class="mt-10">
+                <a href="/app" class="px-8 py-4 text-lg font-semibold text-white bg-blue-600 hover:bg-blue-700 rounded-xl shadow-lg shadow-blue-600/20 transition-transform transform hover:scale-105">
+                    Create Your Account & Get Rich
+                </a>
+            </div>
+        </section>
+        
+        <section id="results" class="py-24 px-4">
+            <div class="container mx-auto">
+                 <div class="text-center max-w-3xl mx-auto mb-16">
+                    <h2 class="text-4xl md:text-5xl font-bold text-white">Performance Without Compromise</h2>
+                    <p class="mt-4 text-gray-400">The numbers speak for themselves. Our AI agent consistently outperforms market averages and human traders.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="glass-card p-8 rounded-2xl text-center">
+                        <p class="text-5xl font-black gradient-text">92.7%</p>
+                        <p class="mt-2 text-sm text-slate-300 font-semibold">Verified Win-Rate</p>
+                    </div>
+                    <div class="glass-card p-8 rounded-2xl text-center">
+                        <p class="text-5xl font-black gradient-text">24/7</p>
+                        <p class="mt-2 text-sm text-slate-300 font-semibold">Autonomous Operation</p>
+                    </div>
+                     <div class="glass-card p-8 rounded-2xl text-center">
+                        <p class="text-5xl font-black gradient-text">Zero</p>
+                        <p class="mt-2 text-sm text-slate-300 font-semibold">Emotional Decisions</p>
+                    </div>
+                     <div class="glass-card p-8 rounded-2xl text-center">
+                        <p class="text-5xl font-black gradient-text">1ms</p>
+                        <p class="mt-2 text-sm text-slate-300 font-semibold">Trade Execution Speed</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="technology" class="py-24 px-4">
+             <div class="container mx-auto text-center max-w-4xl">
+                 <h2 class="text-4xl md:text-5xl font-bold text-white">The Vertex Engine. One AI to Rule All Markets.</h2>
+                 <p class="mt-4 text-gray-400 max-w-2xl mx-auto">
+                    We don't offer different "bots" or "strategies". We have perfected a single, powerful AI core that adapts to any market condition. When you join, you get full access. No tiers, no up-sells.
+                 </p>
+                 <div class="mt-12 glass-card rounded-2xl p-8 flex flex-col md:flex-row items-center gap-8">
+                     <div class="md:w-1/2 text-left space-y-4">
+                        <div class="p-4 rounded-lg bg-slate-900/50 border border-slate-700">
+                           <p class="font-bold text-white mb-1">Quantum Data Processing</p>
+                           <p class="text-sm text-slate-400">Analyzes terabytes of data from global sources in real-time.</p>
+                        </div>
+                        <div class="p-4 rounded-lg bg-slate-900/50 border border-slate-700">
+                           <p class="font-bold text-white mb-1">Predictive Analytics</p>
+                           <p class="text-sm text-slate-400">Our proprietary models forecast short-term market shifts before they happen.</p>
+                        </div>
+                        <div class="p-4 rounded-lg bg-slate-900/50 border border-slate-700">
+                           <p class="font-bold text-white mb-1">Adaptive Risk Management</p>
+                           <p class="text-sm text-slate-400">Automatically adjusts strategies to protect your capital. We prioritize never losing money.</p>
+                        </div>
+                     </div>
+                     <div class="md:w-1/2">
+                         <svg class="w-full h-auto" viewBox="0 0 100 100">
+                            <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#60a5fa"></stop><stop offset="100%" stop-color="#a78bfa"></stop></linearGradient></defs>
+                            <path d="M 50 50 m -40 0 a 40 40 0 1 0 80 0 a 40 40 0 1 0 -80 0" fill="none" stroke="rgba(59, 130, 246, 0.2)" stroke-width="3"></path>
+                            <path d="M 50 50 m -40 0 a 40 40 0 1 0 80 0 a 40 40 0 1 0 -80 0" fill="none" stroke="url(#g)" stroke-width="3" stroke-dasharray="100 157" stroke-dashoffset="0"><animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="10s" repeatCount="indefinite"></animateTransform></path>
+                            <text x="50" y="52" text-anchor="middle" dominant-baseline="middle" font-size="12" fill="#fff" font-weight="bold">AI</text>
+                         </svg>
+                     </div>
+                 </div>
+             </div>
+        </section>
+        
+        <section class="py-24 px-4">
+            <div class="container mx-auto">
+                 <div class="text-center max-w-3xl mx-auto mb-16">
+                    <h2 class="text-4xl md:text-5xl font-bold text-white">Your Path to Wealth in 3 Simple Steps</h2>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center max-w-5xl mx-auto">
+                    <div class="glass-card p-8 rounded-2xl">
+                        <p class="gradient-text text-6xl font-black mb-4">1</p>
+                        <h3 class="text-xl font-bold text-white mb-2">Create Your Secure Account</h3>
+                        <p class="text-gray-400">Register in under 60 seconds. Your data is encrypted and private.</p>
+                    </div>
+                    <div class="glass-card p-8 rounded-2xl">
+                        <p class="gradient-text text-6xl font-black mb-4">2</p>
+                        <h3 class="text-xl font-bold text-white mb-2">Make Your First Deposit</h3>
+                        <p class="text-gray-400">Fund your account with any amount you're comfortable with. There are no minimums.</p>
+                    </div>
+                    <div class="glass-card p-8 rounded-2xl">
+                        <p class="gradient-text text-6xl font-black mb-4">3</p>
+                        <h3 class="text-xl font-bold text-white mb-2">Activate the AI & Relax</h3>
+                        <p class="text-gray-400">With one click, our AI agent begins trading for you. Watch your portfolio grow.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-24 px-4 text-center">
+            <div class="container mx-auto max-w-3xl">
+                 <h2 class="text-4xl md:text-5xl font-bold text-white">The Only Thing You Need To Do Is Start.</h2>
+                 <p class="mt-4 text-gray-400">
+                    Stop letting opportunities pass you by. Join Vertex Trade today and let our AI do the heavy lifting. We only make money when you do, by taking a small 10% fee on profits. It's a true partnership.
+                 </p>
+                 <div class="mt-8">
+                    <a href="/app" class="px-10 py-5 text-xl font-semibold text-white bg-blue-600 hover:bg-blue-700 rounded-xl shadow-lg shadow-blue-600/20 transition-transform transform hover:scale-105">
+                        Start Earning Now
+                    </a>
+                 </div>
+            </div>
+        </section>
+
+        <footer class="border-t border-slate-800">
+            <div class="container mx-auto py-8 px-4 text-center text-sm text-slate-400">
+                <p>&copy; 2025 Vertex Trade. All Rights Reserved.</p>
+                <p class="mt-2 text-xs max-w-2xl mx-auto">Disclaimer: Trading involves significant risk and is not suitable for all investors. Past performance is not indicative of future results. The performance statistics shown are based on back-tested, simulated data under ideal market conditions. Vertex Trade is a fictional service for demonstration purposes.</p>
+            </div>
+        </footer>
+
+    </div>
+
+    <script>
+        // Fades in the header on scroll
+        window.addEventListener('scroll', () => {
+            const header = document.getElementById('header');
+            if (window.scrollY > 10) {
+                header.style.boxShadow = '0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)';
+            } else {
+                header.style.boxShadow = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
